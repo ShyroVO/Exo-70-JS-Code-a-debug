@@ -1,27 +1,24 @@
-let texte = document.getElementById('main').innerHTML = "test";
+let text = document.getElementById('main');
 
-let boucle;
-while(var boucle<5) {
-    boucle =+ 5;
+text.innerHTML="test <br>";
+
+let boucle = 0;
+while (boucle < 5) {
+    boucle++
+    text.innerHTML+= boucle + "<br>";
 }
-
 
 document.getElementById('divInconnuAuBataillon').innerHTML = "ttttttttttttttttt";
 
-if(variableIconnueAuBataillon == 1) {
-alert('connue');
+let variableInconnueAuBataillon = 0;
+
+if (variableInconnueAuBataillon === 1) {
+    alert('connue');
 }
 else {
-    alert(inconnue);
+    alert("inconnue");
 }
 
+alert("Penser à ne pas oublier...");
 
-alert("Penser à ne pas oublier...);
-
-
-alert "certaines choses";
-
-
-
-
-
+alert ("certaines choses");

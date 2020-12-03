@@ -1,27 +1,21 @@
-let main = document.getElementById(main);
+let main = document.getElementById("main");
+main.innerHTML = "Mon nouveau texte !";
 
-main.id = "main2";
-
-main.style.display = "hidden";
-
-document.getElementById('main') = "Mon nouveau texte !";
-
-let html = main.innerHTLM;
+let html = 0;
 
 alert(html);
 
-if(html) {
+if (html === 0) {
     console.log(html);
 }
+
 else {
-    let test = document.getElementParId('test');
-    if(test) {
+    let test = document.getElementById('test');
+    if (test) {
         alert(test);
     }
 }
 
-
-let main = getElementById('main');
-main[style][display] = "block";
+main.style.display = "block";
 
 
